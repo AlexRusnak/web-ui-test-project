@@ -1,35 +1,36 @@
-Web UI Automation Project
-Overview
-This repository houses a comprehensive Web UI automation project designed for learning and practicing automation skills. Developed with WebdriverIO, a robust test automation framework, the project showcases best practices, including page object modeling, test case organization, and various automation strategies.
+# Web UI Automation Project
 
-Features
+## Overview
+This repository houses a comprehensive Web UI automation project designed for learning and practising automation skills. Developed with WebdriverIO, a robust test automation framework, the project showcases best practices, including page object modelling, test case organization, and various automation strategies.
+
+## Overview
 Page Objects: Well-structured page objects provide a clear representation of web pages, enhancing code readability and maintainability.
 Test Cases: The project includes a set of test cases covering different aspects of the sample e-commerce website, such as registration, login, filtering, and sorting products.
 Utility Functions: Utility functions facilitate common tasks, promoting code reuse and efficiency in test case development.
-Getting Started
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/web-ui-automation.git
-cd web-ui-automation
-Install Dependencies:
+## Getting Started
 
-bash
-Copy code
-npm install
-Run Tests:
+These instructions will help you set up and run the project on your local machine.
 
-bash
-Copy code
-npm test
-Project Structure
-pageobjects/: Contains page object classes representing different pages of the web application.
-testdata/: Holds test data, including sample users, filters, and keywords.
-specs/: Houses test case files organized by functionality.
-utils/: Includes utility functions for common automation tasks.
-Contributing
-Contributions are welcome! Feel free to open issues for bug reports or feature requests. If you're interested in contributing code, please follow the contribution guidelines.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://AlexRusnak/web-ui-test-project.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd web-ui-test-project
+
+3. Install Dependencies:
+
+   ```bash
+   npm install
+
+4. Run Tests:
+
+   ```bash
+   npx wdio run wdio.conf.js
